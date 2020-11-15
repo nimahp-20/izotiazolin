@@ -53,6 +53,7 @@ main {
     max-width: 84%;
     height: 50px;
     position: relative;
+    z-index: 100;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -221,7 +222,7 @@ article h4 {
 
 .left-container {
     width: 40%;
-    background-color: orange;
+    background-color: #fa4f19;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +264,7 @@ h3 {
 
 .box-2 {
     width: 50%;
-    background-color: orange;
+    background-color: #fb0013;
 }
 
 .right-container-bottom {
@@ -275,7 +276,7 @@ h3 {
 
 .box-3 {
     width: 50%;
-    background-color: red;
+    background-color: #feb42d;
     display: flex;
     justify-content: center;
 }
@@ -289,7 +290,6 @@ h3 {
 
 .box-4 {
     width: 50%;
-    background-color: crimson;
 }
 
 .box-4-img {
