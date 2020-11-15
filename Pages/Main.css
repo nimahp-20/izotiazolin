@@ -11,6 +11,12 @@
     src: url(../Fonts/EntezarB3_v2.0.1.ttf);
     font-family: 'IranNastaliq';
     src: url(../Fonts/IranNastaliq.ttf);
+    font-family: 'BYekan+';
+    src: url(../Fonts/BYekan+.ttf);
+}
+
+body {
+    font-family: 'BYekan+';
 }
 
 .wrapper {
@@ -39,6 +45,7 @@
     width: 84%;
     max-width: 84%;
     height: 50px;
+    position: relative;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -50,6 +57,7 @@
 
 .items {
     display: flex;
+    position: absolute;
 }
 
 .item {
@@ -62,7 +70,7 @@
     text-decoration: none;
     color: white;
     padding: 0 10px;
-    font-family: 'EntezarB3_v2.0.1';
+    font-family: 'BYekan+';
 }
 
 .item a:hover {
@@ -82,7 +90,7 @@
 article h2 {
     color: black;
     margin-left: 1rem;
-    font-family: 'IranNastaliq';
+    font-family: 'BYekan+';
 }
 
 article h4 {
@@ -90,7 +98,7 @@ article h4 {
 }
 
 .main-div-text h1 {
-    font-family: 'IranNastaliq';
+    font-family: 'BYekan+';
     color: orangered;
     font-size: 30px;
 }
@@ -122,13 +130,15 @@ article h4 {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.3);
-    margin: 0px 5%;
-    padding: 0px 0px;
+    /* margin: 0px 5%; */
+    margin: auto;
+    max-width: 84%;
     align-items: center;
 }
 
 .mg {
-    margin: 0px 50px;
+    /* margin: 0px 50px; */
+    margin: 20px 20px;
 }
 
 .footer-wrapper a {
@@ -139,14 +149,16 @@ article h4 {
 .footer-sec {
     width: 100%;
     display: flex;
-    margin: 50px;
+    /* margin: 50px; */
+    margin: auto;
 }
 
 .about-us-txt {
     color: orangered;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: flex-end;
+    margin: auto;
 }
 
 .about-us-info {
@@ -157,6 +169,10 @@ article h4 {
 
 .footer-about-us {
     width: 25%;
+}
+
+.footer-about-us>h3 {
+    padding-bottom: 40px;
 }
 
 .header-links {
@@ -179,10 +195,6 @@ article h4 {
 
 .header-links-items li a {
     color: #ffffffbb;
-}
-
-.pad {
-    margin-bottom: 20px;
 }
 
 .header-links-items li::before {
