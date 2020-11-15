@@ -163,7 +163,7 @@ article h4 {
     color: orangered;
     padding-bottom: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: auto;
 }
 
@@ -227,7 +227,7 @@ article h4 {
     align-items: center;
 }
 
-.left-container-txt>h2,
+.first-container>.left-container>.left-container-txt>h2,
 h3 {
     direction: rtl;
     display: flex;
