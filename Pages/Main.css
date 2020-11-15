@@ -36,10 +36,11 @@
 }
 
 .main-nav {
-    width: 55%;
+    width: 84%;
+    max-width: 84%;
     height: 50px;
     display: flex;
-    margin-left: 21%;
+    margin: auto;
     justify-content: center;
     align-items: center;
     flex-direction: row;
