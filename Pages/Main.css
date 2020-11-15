@@ -13,10 +13,16 @@
     src: url(../Fonts/IranNastaliq.ttf);
     font-family: 'BYekan+';
     src: url(../Fonts/BYekan+.ttf);
+    font-family: 'Yekan';
+    src: url(../Fonts/Yekan.ttf);
 }
 
 body {
-    font-family: 'BYekan+';
+    font-family: 'Yekan';
+}
+
+main {
+    height: 2000px;
 }
 
 .wrapper {
@@ -34,6 +40,7 @@ body {
 .header-section {
     width: 100%;
     display: flex;
+    position: relative;
     flex-direction: column;
 }
 
@@ -110,6 +117,8 @@ article h4 {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    position: absolute;
+    z-index: 2;
 }
 
 .footer-wrapper {
@@ -130,14 +139,12 @@ article h4 {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.3);
-    /* margin: 0px 5%; */
     margin: auto;
     max-width: 84%;
     align-items: center;
 }
 
 .mg {
-    /* margin: 0px 50px; */
     margin: 20px 20px;
 }
 
@@ -149,7 +156,6 @@ article h4 {
 .footer-sec {
     width: 100%;
     display: flex;
-    /* margin: 50px; */
     margin: auto;
 }
 
@@ -201,4 +207,95 @@ article h4 {
     color: orangered;
     font-size: 15px;
     content: '←';
+}
+
+.first-container {
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    position: relative;
+    margin-top: 560px;
+}
+
+.left-container {
+    width: 40%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container-txt>h2,
+h3 {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.right-container {
+    width: 60%;
+    background-color: blue;
+}
+
+.right-container-top {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+    display: flex;
+}
+
+.box-1 {
+    width: 50%;
+    background-color: green;
+}
+
+.box-1-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-2 {
+    width: 50%;
+    background-color: orange;
+}
+
+.right-container-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+}
+
+.box-3 {
+    width: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.right-container-txt {
+    color: #ffffff;
+    direction: rtl;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.box-4 {
+    width: 50%;
+    background-color: crimson;
+}
+
+.box-4-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
