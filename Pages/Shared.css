@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GreatVibes-Regular';
+    src: url(../Fonts/GreatVibes-Regular.otf);
+    font-family: 'EntezarB3_v2.0.1';
+    src: url(../Fonts/EntezarB3_v2.0.1.ttf);
+    font-family: 'IranNastaliq';
+    src: url(../Fonts/IranNastaliq.ttf);
+    font-family: 'BYekan+';
+    src: url(../Fonts/BYekan+.ttf);
+    font-family: 'Yekan';
+    src: url(../Fonts/Yekan.ttf);
+}
+
+body {
+    font-family: 'Yekan';
+}
+
+.main-nav {
+    width: 84%;
+    max-width: 84%;
+    height: 50px;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.items {
+    display: flex;
+    position: absolute;
+}
+
+.item {
+    display: flex;
+    padding: 15px;
+}
+
+.item a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-family: 'BYekan+';
+}
+
+.item a:hover {
+    color: orangered;
+    transition: 0.5s;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 400px;
+    background-image: url(../IMG/footer-background.jpg);
+    background-position: 100% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    max-width: 84%;
+    align-items: center;
+}
+
+.mg {
+    margin: 20px 20px;
+}
+
+.footer-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-sec {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.about-us-txt {
+    color: orangered;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-us-info {
+    color: #ffffffbb;
+    font-size: 12px;
+    direction: rtl;
+}
+
+.footer-about-us {
+    width: 25%;
+}
+
+.footer-about-us>h3 {
+    padding-bottom: 40px;
+}
+
+.header-links {
+    width: 25%;
+}
+
+.header-links-items {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links-items li {
+    direction: rtl;
+    border-bottom: 1.5px dashed white;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.header-links-items li a {
+    color: #ffffffbb;
+}
+
+.header-links-items li::before {
+    color: orangered;
+    font-size: 15px;
+    content: '←';
+}
