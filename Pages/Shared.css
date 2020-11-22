@@ -21,11 +21,15 @@ body {
     font-family: 'Yekan';
 }
 
+main {
+    height: 80vh;
+}
+
 .main-nav {
     width: 84%;
     max-width: 84%;
     height: 50px;
-    position: relative;
+    position: absolute;
     z-index: 100;
     display: flex;
     margin: auto;
@@ -34,6 +38,8 @@ body {
     flex-direction: row;
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.3);
+    right: 0;
+    left: 0;
 }
 
 .items {
