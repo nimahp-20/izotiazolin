@@ -152,3 +152,30 @@ main {
     font-size: 15px;
     content: '←';
 }
+
+.header-img {
+    width: 100%;
+    height: 300px;
+    background-image: url(../IMG/footer-background.jpg);
+    background-position: 100% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#header-h3 {
+    display: flex;
+    color: orangered;
+    direction: rtl;
+    font-size: 40px;
+}
+
+#header-h4 {
+    display: flex;
+    direction: rtl;
+    color: #ffffff;
+}
