@@ -123,4 +123,22 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    padding-bottom: 40px;
+}
+
+.cat-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.cat-links a {
+    text-decoration: none;
+    color: black;
+    direction: rtl;
+}
+
+.cat-links a::before {
+    content: '←';
+    color: orange;
+    padding: 20px;
 }
